@@ -3,9 +3,89 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Review</title>
-  <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.css" media="screen">
-  <link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
+  <title>Stacey Smith - 11-Web_Homework</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="LUX.css" media="screen">
+    <link rel="stylesheet" href="lux.min.css">
+
 </head>
 
-<body></body>
+<body>
+  
+   <!-- MAIN NAV BAR -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="index.html" target="_blank" align="left">US MEDIAN INCOME, EMPLOYMENT, <BR>& HOMICIDE RATES</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="navbar-collapse collapse show" id="navbarColor01">
+        <ul class="navbar-nav mr-auto" align="right">
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="vizall.html">All</a>
+                <a class="dropdown-item" href="viz1.html">Male Victims and Unemployment</a>
+                <a class="dropdown-item" href="viz2.html">Female Victims and Unemployment</a>
+                <a class="dropdown-item" href="viz3.html">Male Victims and Median Income</a>
+                <a class="dropdown-item" href="viz4.html">Female Victims and Median Income</a>
+              </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="vizall.html">Comparisons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <!-- END MAIN NAV BAR -->
+
+ <!-- PLOTS TABLE -->           
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 plaincontainer">
+              <h1>PLOTS COMPARISON</h1>
+              <p>Click image for more information about the visualization.</p>
+
+              <div class="col-md-6">
+                  <h2>Male Victims and Median Income</h2>
+                  <a href="viz3.html"><img src="Images/Viz3_Victims_and_Median_Income_MEN.png" alt="2017 Male Median Earnings and Homicide Victims" width="100%"/></a>
+              </div>
+              <div class="col-md-6">
+                  <h2>Female Victims and Median Income</h2>
+                  <a href="viz4.html"><img src="Images/Viz4_Victims_and_Median_Income_WOMEN.png" alt="2017 Female Median Earnings and Homicide Victims" width="100%"/></a>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+              <div class="col-md-12 plaincontainer">
+                  <div class="col-md-6">
+                      <h2>Male Victims and Unemployment</h2>
+                      <a href="viz1.html"><img src="Images/Viz1_Scatter_Unemployment_Homicide_2017_MEN.png" alt="2017 Male Unemployment and Homicide Victims" width="100%"/></a>
+                  </div>
+                  <div class="col-md-6">
+                      <h2>Female Victims and Unemployment</h2>
+                      <a href="viz2.html"><img src="Images/Viz2_Scatter_Unemployment_Homicide_2017_WOMEN.png" alt="2017 Female Unemployment and Homicide Victims" width="100%" /></a>
+                  </div>
+              </div>
+          </div>
+  </div>     
+            
+  <!-- END PLOTS TABLE -->        
+          
+     
+         
+ 
+</div>
+</body>
